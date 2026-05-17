@@ -184,3 +184,42 @@ footer {
     font-size: 12px;
   }
 }
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.social-icon {
+  width: 46px;
+  height: 46px;
+  display: grid;
+  place-items: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0 7px 0 rgba(1, 33, 87, 0.55), 0 12px 22px rgba(0, 0, 0, 0.22);
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  transition: 0.18s ease;
+  overflow: hidden;
+}
+
+.social-icon img {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+  display: block;
+}
+
+.social-icon:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 0 rgba(1, 33, 87, 0.55), 0 16px 26px rgba(0, 0, 0, 0.28);
+}
+
+.social-icon:active {
+  transform: translateY(3px);
+  box-shadow: 0 4px 0 rgba(1, 33, 87, 0.55), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
