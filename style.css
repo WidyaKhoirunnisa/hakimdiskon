@@ -163,6 +163,13 @@ footer {
   opacity: 0.9;
 }
 
+.creator {
+  margin-top: 6px;
+  font-size: 12px;
+  color: #dbeafe;
+  opacity: 0.8;
+}
+
 @media (max-width: 380px) {
   .container {
     padding: 22px 14px;
