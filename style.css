@@ -160,14 +160,33 @@ footer {
   margin-top: 28px;
   font-size: 13px;
   color: #dbeafe;
-  opacity: 0.9;
+  opacity: 0.95;
+}
+
+footer p {
+  margin: 0;
 }
 
 .creator {
-  margin-top: 6px;
-  font-size: 12px;
+  margin-top: 4px;
+  font-size: 13px;
   color: #dbeafe;
-  opacity: 0.8;
+  opacity: 0.95;
+}
+
+.creator a {
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.creator a:visited {
+  color: #ffffff;
+}
+
+.creator a:hover {
+  color: #ffffff;
+  text-decoration: underline;
 }
 
 @media (max-width: 380px) {
